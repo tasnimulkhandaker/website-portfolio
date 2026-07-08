@@ -1,7 +1,11 @@
+/* Reset style */
 *{
     padding: 0;
     margin: 0;
     font-family: "Open Sans", sans-serif;
+}
+img{
+    max-width: 100%;
 }
 
 /* Common style */
@@ -13,8 +17,27 @@
     font-size: 22px;
     color: white;
     border:  none;
+    cursor: pointer;
 
 }
+
+.outline-btn {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    color:  #FD6E0A;
+    border: 1px solid  #FD6E0A;
+    cursor: pointer;
+
+}
+
+
+ .container {
+    max-width: 1200px;
+    margin: auto;
+ }
 
  
 
@@ -22,9 +45,7 @@ nav {
     
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin:auto;
-    padding: 12px 0;
+      padding: 12px 0;
     
     
 }
@@ -54,3 +75,30 @@ ul li a {
 }
 
  
+/* Hero section style */
+.hero-parent-root{
+
+}
+.hero-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+.hero-left-p-1{
+font-size: 28px;
+font-weight: 600;
+}
+
+
+.hero-left h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+.hero-left-btn-parent{
+    margin-top: 12px;
+}

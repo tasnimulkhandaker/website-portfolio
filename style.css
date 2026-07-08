@@ -127,3 +127,36 @@ font-weight: 600;
     padding: 5px;
     border-radius: 5px;
 }
+
+/* What i do section css */
+ 
+.what-i-do-parent{
+    margin: 60px auto;
+    text-align: center;
+
+}
+
+.what-i-do-card-container{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.what-i-do-card-container .what-i-do-card{
+    border: 2px solid #FD6E0A;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: left;
+
+}
+
+.what-i-do-card-container .what-i-do-card h2{
+    margin: 10px 0;
+}
+
+
+
+ .what-i-do-card-container .what-i-do-card p{
+    color: #757575;
+    font-size: 15px;
+ }

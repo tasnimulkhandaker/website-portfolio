@@ -77,6 +77,7 @@ ul li a {
  
 /* Hero section style */
 .hero-parent-root{
+    background-color: #fff8f3;
 
 }
 .hero-parent {
@@ -101,4 +102,28 @@ font-weight: 600;
 }
 .hero-left-btn-parent{
     margin-top: 12px;
+}
+
+/* About us css */
+.about-parent{
+    background-color:#fff8f3;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 35px;
+    text-align: center;
+}
+.about-parent p{
+    margin: 10px;
+}
+
+.about-box-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 8px ;
+}
+
+.about-box-parent .box{
+    background-color: #fff8f3;
+    padding: 5px;
+    border-radius: 5px;
 }
